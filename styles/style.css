@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem;
+  max-width: 600px;
+  min-width: 400px;
+  background: #616C6F;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5rem;
+  box-shadow: 2px 2px 8px #000;
+}
+
+.fa-quote-left {
+  margin-right: 1rem;
+}
+
+hr {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#author {
+  margin: 0px;
+}
+
+#buttons {
+  margin: 1.5rem 1.5rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  #container {
+    max-width: 300px;
+    font-size: 1rem
+  }
+}
+
